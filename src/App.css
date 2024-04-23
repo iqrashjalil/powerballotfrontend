@@ -1,0 +1,580 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --border-color: #dadce0;
+    --primary-color: #0d6efd;
+}
+
+.flex{
+    display: flex;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.jcc{
+    justify-content: center;
+}
+
+.aic{
+    align-items: center;
+}
+
+.mh{
+    min-height: 95vh;
+}
+
+.mr-4{
+    margin-right: 14px;
+}
+
+.icon:hover{
+    color: var(--primary-color);
+}
+
+
+.icon-instagram:hover{
+    color: red;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+.icon-instagram{
+    font-size: 1.5rem;
+}
+
+
+
+.left{
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    width: 20%;
+    margin: 24px;
+}
+
+
+.left-heading{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+
+.left-heading h4{
+    font-weight: 700;
+}
+
+.border{
+    border: 1px solid var(--border-color);
+}
+
+.party-card {
+    margin: 16px;
+}
+
+.party-logo {
+    margin: 8px;
+}
+
+.party-logo img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.candidate-container{
+    width: 100%;
+    
+}
+
+
+.right{
+    width: 80%;
+    margin: 24px;
+    padding: 24px;
+}
+
+.right-heading{
+    color: var(--primary-color);
+   
+}
+
+
+.right-heading h3{
+    font-weight: bold;
+}
+
+.candidate-card {
+    width: 24rem;
+    height: 15rem;
+    padding: 10px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.candidate-card .candidate-details {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.candidate-card .candidate-details img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.candidate-card .candidate-details h5 {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.candidate-card .description {
+    margin: 10px;
+}
+
+.candidate-card .description p {
+    font-size: 14px;
+    color: #333;
+}
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.banner-left {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    padding: 5rem;
+    
+    width: 50%;
+    height: 100%;
+}
+
+.banner-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+
+.banner-left span {
+    color: var(--primary-color);
+    
+}
+
+.banner-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-right img {
+    height: 50%;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.empty{
+    width: 100%;
+    height: 5rem;
+    color: white;
+}
+
+
+
+.banner2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+
+.banner2-right {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    padding: 5rem;
+    
+    width: 50%;
+    height: 100%;
+}
+
+.banner2-right h1 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+
+.banner2-right span {
+    color: var(--primary-color);
+    
+}
+
+.banner2-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner2-left img {
+    height: 50%;
+    width: 50%;
+}
+
+
+
+
+
+.true{
+    color: rgb(0, 255, 64);
+    font-size: 2rem;
+ 
+}
+
+
+.banner-left ul {
+    list-style: none;
+    margin-left: 3rem;
+   
+}
+.banner-left ul li div{
+    padding-right: 14px;
+}
+
+
+
+
+
+
+
+
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+  }
+  
+
+
+
+
+
+.features {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .feature-card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .icon-wrapper {
+    background-color: #2c7bfe;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .feature-card:hover {
+    background-position: 0 100%;
+  }
+  .feature-card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #2c7bfe;
+  }
+  .feature-card:hover h3 {
+    color: #ffffff;
+  }
+  .feature-card:hover p {
+    color: #f0f0f0;
+  }
+  
+
+
+
+  /*!!!!!!!!!!!!!! Results Page Designing !!!!!!!!!!!!!!*/
+
+
+
+  /*!!!!!!!!!!!!!! Results Page Designing !!!!!!!!!!!!!!*/
+
+
+
+
+  .result-section{
+    width: 100%;
+    min-height: 95vh;
+    
+  }
+  .result-left{
+    width: 50%;
+    padding: 20px;
+  }
+
+  .result-card {
+    border: 1px solid var(--border-color);
+    margin-top: 20px;
+  }
+
+
+  .result-card img {
+    width: 80px;
+    height: 50px;
+  }
+
+
+  .result-name{
+     width: 300px;
+     margin-left: 14px;
+  }
+
+
+  .candidate-table-img img{
+    width: 50px;
+  }
+
+  .add-candidate{
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+  }
+  .card{padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+    }
+    .blue-text{
+        color: #00BCD4
+    }
+    .form-control-label{
+        margin-bottom: 0
+    }
+    .candidate-input{
+        padding: 8px 15px;
+        border-radius: 5px !important;
+        margin: 5px 0px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 18px !important;
+        font-weight: 300
+    }
+    .candidate-input:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}
+
+    
+
+
+
+
+
+
+  /*!!!!!!!!!!!!!! Responsive Designing !!!!!!!!!!!!!!*/
+
+
+
+  /*!!!!!!!!!!!!!! Responsive Designing !!!!!!!!!!!!!!*/
+
+
+
+
+  @media screen and (min-width: 768px) {
+    .features {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+    
+
+  }
+  @media screen and (min-width: 992px) {
+    .features {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+     
+    }
+    
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .banner {
+        flex-direction: column;
+        height: 100%;
+    }
+    .banner-left {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .banner-right {
+        width: 100%;
+        padding: 1rem;
+        
+    }
+    .banner-left h1 {
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+
+    .banner2-right h1 {
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    .banner2 {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .banner2-left {
+        width: 100%;
+        order: 2;
+        padding: 1rem;
+    }
+    .banner2-right {
+        width: 100%;
+        padding: 1rem;
+    }
+    .banner-left ul {
+        list-style: none;
+        margin-left: 0;
+        padding: 0;
+       
+    }
+    .banner-left ul li div{
+        padding-right: 0;
+    }
+
+    .candidate-container{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+   
+    .right{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pot{
+        justify-content: center;
+    }
+    .result-left {
+        width: 100%;
+        margin: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .result-card{
+        flex-direction: column;
+    }
+    .result-card img {
+        width: 80%;
+        height: 80%;
+    }
+    .result-name{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin: 0;
+     }
+     .progress{
+        width: 100%;
+     }
+   
+   
+  }
